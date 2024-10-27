@@ -74,6 +74,12 @@ Run the complete project.
 ###Yarn Users
 yarn dev
 ```
+Run the Hardhat to get all dependencies reated to it
+```bash
+###npx hardhat
+npx hardhat
+```
+
 ```bash
 ### API listens on port 3000
 node backend/index.js
