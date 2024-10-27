@@ -1,40 +1,65 @@
-# Collectible Card Game
+# I. Collectible Card Game
 
-Welcome to the DAAR project. The idea will be to implement a Collectible Card Game in a decentralized way on Ethereum. This will force you to iterate through the creation of CCG cards as NFTs, create a marketplace for players to exchange NFTs, and run a frontend to create collections.
+Our "Collectible Card Game" project is a decentralized collectible card game (CCG) built on the Ethereum blockchain. Players can own, trade, and collect unique cards as NFTs (Non-Fungible Tokens), giving each player immutable proof of ownership on the blockchain. This decentralized approach ensures that each card is unique and traceable, providing transparency and security in ownership.
+
+<div align="center">
+    <img src="screensdaar/home.png" alt="Home Page" style="max-width: 100%; height: auto;">
+</div>
 
 ## Authors
 
 - Rania KABTANE
 - Yaakoub MOUSSOUNI
 
-## Demo
+
+This project includes three main components:
+1. **Backend** - Manages off-chain data and coordinates player actions, interacts with Ethereum smart contracts for blockchain transactions.
+2. **Frontend** - User interface where players manage collections, view cards, and perform trades. It also connects to Ethereum wallets (e.g., Metamask) for blockchain interactions.
+3. **Smart Contracts** - Manages card creation, ownership, and trading on the Ethereum blockchain using Solidity.
+
+## II. Demo
+<div align="center">
+    <a href="screendaar/demovid.mp4" target="_blank">Demonstration du fonctionnement.</a>
+</div>
 
 ## Installation
 
-### With HTTPS
-```bash
-git clone https://github.com/ghivert/collectible-card-game-daar.git
-```
-Or with SSH
-```bash
-git clone git@github.com:ghivert/collectible-card-game-daar.git
-```
+### Pokémon TCG API Integration
+To enrich the gaming experience, we use the [Pokémon TCG API](https://pokemontcg.io/), importing popular Pokémon cards for recognizable and collectible content. 
+
+**Steps for Integration**:
+1. Configure the backend with a script to retrieve data from the Pokémon TCG API using an API key.
+2. Serve detailed card metadata to the frontend.
 You’ll need to install dependencies. You’ll need HardHat, Node.js, NPM, and Yarn. You’ll need to install Metamask as well to communicate with your blockchain.
 
 HardHat is a local blockchain development tool, allowing you to iterate quickly and avoid wasting Ether during development. Fortunately, you have nothing to do to install it.
 Node.js is used to build the frontend and run Truffle, which is a utility to deploy contracts.
 NPM or Yarn is a package manager used to install dependencies for your frontend development. Yarn is recommended.
 Metamask is a browser utility to interact with decentralized applications.
-Some Setup
-Once everything is installed, launch the project with:
 
-```bash
-yarn dev
-```
+## III. Features
+
+- **Decentralized Trading**: Players can mint and trade cards in a marketplace without intermediaries.
+- **User-Generated Cards**: Players can create custom cards, mint them as NFTs, and trade within the platform.
+- **In-App Purchases**: Players can buy card packs, boost collections, or access premium features for enhanced gameplay.
+
+## IV. Getting Started
+
+### Prerequisites
+- **Node.js** and **Yarn**
+- **Hardhat** (for local blockchain development)
+- **Metamask** (for wallet connectivity)
+- API key from [Pokémon TCG API](https://pokemontcg.io/)
+
+### Installation
+
+ **Clone the Repository**
+   ```bash
+   git clone https://github.com/Yaakoubmoussouni/daar.git
+   cd collectible-card-game
+   ```
+
 You should have a local blockchain running. Open Metamask, set it up, and add an account from the private keys that HardHat displays. Now you can connect Metamask to the blockchain. To do this, add a network by clicking on Ethereum Mainnet and personalized RPC. Here, you should be able to add a network.
-
-Ganache Config
-Once you have done this, you’re connected to the HardHat blockchain!
 
 Installation
 Install the dependencies.
@@ -47,15 +72,38 @@ Run the complete project.
 ###Yarn Users
 yarn dev
 ```
+```bash
+### API listens on port 3000
+node backend/index.js
+```
+
+<div align="center">
+    <img src="screensdaar/index.png" alt="Index Page" style="max-width: 100%; height: auto;">
+</div>
+
+
 You’re good to go!
 
-Subject
-TCG, or Trading Card Game, sometimes called CCG for Collectible Card Game, are a type of game in which you're opening randomized packs of cards, called boosters, and you're building your pack of cards, called decks, to play against other players. This is a popular format nowadays, both physically and digitally. The most famous of them are Magic: The Gathering, Pokémon TCG, Yu-Gi-Oh!, Hearthstone, Marvel Snap, or even Legends of Runeterra. You probably heard about at least one, and maybe played with some of them.
+Usage
+Open the application in your browser at http://localhost:5173/.
+Connect your Metamask wallet.
+Use the app to create collections, mint new cards, and view your inventory.
 
-The subject of this project will be to put yourself in the place of a TCG creator, and to create a TCG on Ethereum and other EVM-compatible blockchains. To fulfill this goal, you'll need to understand the different parts of the game, from the on-chain part (hosted on the blockchain) to the off-chain parts (the frontend and the backend) of the game.
+<div align="center">
+    <img src="screensdaar/wallet.png" alt="Wallet Connection" style="max-width: 100%; height: auto;">
+</div>
 
-While you could go to the end and build a complete, working TCG, you're not going to be asked to build a game engine. This would take more than a bunch of weeks, and it's not the scope of the project. The project will be focused on building the collectible part of the project. In other words, you'll build the way to collect digital cards, make them possible to exchange with friends, browse the cards on your web browser, and organize your collection as you want.
 
-In a real TCG, a new set of cards is published approximately every 3 to 4 months. Your work will be to build a complete infrastructure able to manage a new collection of cards on a regular basis.
+V. Future Development
+Decentralized Marketplace: A peer-to-peer marketplace for trading and selling cards.
+Player-Created Cards: Allow users to design and mint custom cards.
+Premium Purchases: Enable players to buy packs, boost collections, or access exclusive content.
+VI. Conclusion
+This project allowed us to explore decentralized application development, creating a unique experience with ERC-721 NFTs on Ethereum. By integrating the Pokémon TCG API, we enhanced user engagement with familiar content. Developing both the frontend with Metamask connectivity and a backend API enriched our skills in building hybrid architectures that interact smoothly with blockchain.
 
-More specifications: the cards will be represented as NFTs, or Non-Fungible Tokens. It's the best way to represent collectibles on a blockchain. For this, you'll implement the ERC-721 standard, and you'll build the different frontends and backends on your own. The project is here to help you kickstart the infrastructure.
+VII. References
+Alina Novikova & Shuhan Duan. Collectible Card Game Project Repository, GitHub. Available at: https://github.com/JerryProject/collectible-card-game-daar-inspi/tree/main.
+CryptoZombies. Learn to Code Blockchain DApps by Building Simple Games, Available at: https://cryptozombies.io/.
+Solidity Documentation. Solidity 0.8.28 Documentation, Available at: https://docs.soliditylang.org/en/v0.8.28/.
+Pokémon TCG Developers. Pokémon TCG API Documentation, Available at: https://pokemontcg.io/.
+
