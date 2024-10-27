@@ -17,15 +17,17 @@ This project includes three main components:
 2. **Frontend** - User interface where players manage collections, view cards, and perform trades. It also connects to Ethereum wallets (e.g., Metamask) for blockchain interactions.
 3. **Smart Contracts** - Manages card creation, ownership, and trading on the Ethereum blockchain using Solidity.
 
-# II. Demo
+## II. Demo
+
+
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=2JTXBozTcuM">
     <img src="https://img.youtube.com/vi/2JTXBozTcuM/0.jpg" alt="Watch the video">
   </a>
 </div>
-# III. Installation
 
-### Pokémon TCG API Integration
+# Pokémon TCG API Integration
 To enrich the gaming experience, we use the [Pokémon TCG API](https://pokemontcg.io/), importing popular Pokémon cards for recognizable and collectible content. 
 
 **Steps for Integration**:
@@ -38,20 +40,20 @@ Node.js is used to build the frontend and run Truffle, which is a utility to dep
 NPM or Yarn is a package manager used to install dependencies for your frontend development. Yarn is recommended.
 Metamask is a browser utility to interact with decentralized applications.
 
-# IV. Features
+## III. Features
 
 - **Decentralized Trading**: Players can mint and trade cards in a marketplace without intermediaries.
 - **User-Generated Cards**: Players can create custom cards, mint them as NFTs, and trade within the platform.
 - **In-App Purchases**: Players can buy card packs, boost collections, or access premium features for enhanced gameplay.
 
-# V. Getting Started
+## IV. Getting Started
 Prerequisites
 Node.js and Yarn
 Hardhat (for local blockchain development)
 Metamask (for wallet connectivity)
 API key from Pokémon TCG API
 
-### Installation
+# Installation
 
  **Clone the Repository**
    ```bash
@@ -93,7 +95,7 @@ Use the app to create collections, mint new cards, and view your inventory.
     <img src="screensdaar/wallet.png" alt="Wallet Connection" style="max-width: 100%; height: auto;">
 </div>
 
-# VI. Future Development
+# V. Future Development
 
 
 Decentralized Marketplace: A peer-to-peer marketplace for trading and selling cards.
@@ -101,7 +103,7 @@ Player-Created Cards: Allow users to design and mint custom cards.
 Premium Purchases: Enable players to buy packs, boost collections, or access exclusive content.
 
 
-# VII. Conclusion 
+# VI. Conclusion 
 
 
 This project allowed us to explore decentralized application development, creating a unique experience with ERC-721 NFTs on Ethereum.
@@ -110,7 +112,7 @@ By integrating the Pokémon TCG API, we enhanced user engagement with familiar c
 
 Developing both the frontend with Metamask connectivity and a backend API enriched our skills in building hybrid architectures that interact smoothly with blockchain.
 
-# VIII. References
+# VII. References
 
 
 Alina Novikova & Shuhan Duan. Collectible Card Game Project Repository, GitHub. Available at: https://github.com/JerryProject/collectible-card-game-daar-inspi/tree/main.
