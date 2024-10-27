@@ -94,17 +94,28 @@ Use the app to create collections, mint new cards, and view your inventory.
     <img src="screensdaar/wallet.png" alt="Wallet Connection" style="max-width: 100%; height: auto;">
 </div>
 
-
 V. Future Development
+
 Decentralized Marketplace: A peer-to-peer marketplace for trading and selling cards.
+
 Player-Created Cards: Allow users to design and mint custom cards.
+
 Premium Purchases: Enable players to buy packs, boost collections, or access exclusive content.
+
 VI. Conclusion
-This project allowed us to explore decentralized application development, creating a unique experience with ERC-721 NFTs on Ethereum. By integrating the Pokémon TCG API, we enhanced user engagement with familiar content. Developing both the frontend with Metamask connectivity and a backend API enriched our skills in building hybrid architectures that interact smoothly with blockchain.
+This project allowed us to explore decentralized application development, creating a unique experience with ERC-721 NFTs on Ethereum.
+
+By integrating the Pokémon TCG API, we enhanced user engagement with familiar content.
+
+Developing both the frontend with Metamask connectivity and a backend API enriched our skills in building hybrid architectures that interact smoothly with blockchain.
 
 VII. References
+
 Alina Novikova & Shuhan Duan. Collectible Card Game Project Repository, GitHub. Available at: https://github.com/JerryProject/collectible-card-game-daar-inspi/tree/main.
-CryptoZombies. Learn to Code Blockchain DApps by Building Simple Games, Available at: https://cryptozombies.io/.
-Solidity Documentation. Solidity 0.8.28 Documentation, Available at: https://docs.soliditylang.org/en/v0.8.28/.
-Pokémon TCG Developers. Pokémon TCG API Documentation, Available at: https://pokemontcg.io/.
+
+CryptoZombies. Learn to Code Blockchain DApps by Building Simple Games. Available at: https://cryptozombies.io/.
+
+Solidity Documentation. Solidity 0.8.28 Documentation. Available at: https://docs.soliditylang.org/en/v0.8.28/.
+
+Pokémon TCG Developers. Pokémon TCG API Documentation. Available at: https://pokemontcg.io/.
 
