@@ -19,9 +19,10 @@ This project includes three main components:
 
 ## II. Demo
 <div align="center">
-    <a href="screendaar/demovid.mp4" target="_blank">Demonstration du fonctionnement.</a>
+  <a href="https://www.youtube.com/watch?v=2JTXBozTcuM">
+    <img src="https://img.youtube.com/vi/2JTXBozTcuM/0.jpg" alt="Watch the video">
+  </a>
 </div>
-
 ## Installation
 
 ### Pokémon TCG API Integration
